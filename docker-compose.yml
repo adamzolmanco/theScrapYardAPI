@@ -6,8 +6,8 @@ services:
       - static:/static
     env_file:
       - .env
-    build: 
-    context: .
+    build:
+      context:  .
     ports:
       - "8000:8000"
   nginx:
