@@ -1,4 +1,4 @@
-FROM python:3.85-alpine
+FROM python:3-alpine3.10
 
 RUN pip install --upgrade pip
 
